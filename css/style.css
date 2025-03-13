@@ -54,7 +54,7 @@ h1 {
     font-size: 150px;
 }
 
-h2 {
+#forstasidan {
     text-align: center;
     font-size: 50px;
 }
@@ -63,6 +63,32 @@ button {
    border-radius: 100px;
    font-size: 50px;
 }
+
+.sida2 {
+    height: 100vh;
+}
+
+#andrasidan {
+    text-align: left;
+    font-size: 70px;
+    padding-right: 100px;
+}
+
+.visaalla {
+    font-size: 30px;
+}
+
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+
+
 
 @media screen and (max-width:600px) {
 
@@ -93,7 +119,7 @@ button {
 
     button { 
         border-radius: 100px;
-        font-size: 40px;
+        font-size: 35px;
      }
     
 }
