@@ -38,8 +38,19 @@ width: 300px;
     align-items: center;
 }
 
-.navlankar li:hover{
+.navlankar li.hv:hover{
     background-color: rgb(128, 128, 128);
+}
+
+.ikoner {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 10px;
+}
+
+#ikonerbox {
+    display: flex;
 }
 
 .logo {
@@ -81,7 +92,7 @@ main {
 }
 
 .andrasidan {
-    font-size: 70px;
+    font-size: 90px;
     text-align: center;
 }
 
