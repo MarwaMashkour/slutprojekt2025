@@ -8,7 +8,7 @@
     'ft ft ft ft';
     margin: auto;
     background-color: rgb(124, 124, 124);
-   
+
 }
 
 header {
@@ -114,7 +114,17 @@ img {
 
 }
 
+#html2 {
+    background-color: rgb(154, 154, 154);
+}
 
+#intresseanmälan {
+    font-size: 50px;
+}
+
+.aktivitet {
+border-radius: 100px;
+}
 
 
 
