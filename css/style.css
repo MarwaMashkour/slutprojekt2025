@@ -144,15 +144,28 @@ h3 {
 }
 
 #html2 {
-    background-color: rgb(154, 154, 154);
+    background-color: rgb(179, 179, 179);
 }
 
 #intresseanmälan {
     font-size: 50px;
 }
 
+#intresseanmälan.knappar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .aktivitet {
 border-radius: 100px;
+background-color: aliceblue;
+border: 4px solid rgb(237, 146, 85);
+}
+
+
+p {
+    font-size: 30px;
 }
 
 
