@@ -141,7 +141,6 @@ img {
    font-size: 50px;
    background-color: rgb(255, 255, 255);
    border-radius: 40px;
- 
    margin-left:50px
 }
 
@@ -181,8 +180,13 @@ footer {
 
 
 #html2 {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(255, 255, 255);
+}
 
+#html2section {
+    background-color: rgb(179, 179, 179);
+    border-radius: 50px;
+    padding: 50px;
 }
 
 
@@ -202,12 +206,12 @@ border: 5px solid rgb(237, 146, 85);
 
 
 p {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .uppgifter { 
     height: 60px;
-    width: 650px;
+    width: 600px;
     border-radius: 30px;
     border: none;
     font-size: 20px;
@@ -228,7 +232,7 @@ p {
 #personnr select,
 #personnr input {
     height: 60px;
-    width: 315px;
+    width: 300px;
     margin: 10px;
     padding-left: 15px;
     border-radius: 20px;
@@ -296,6 +300,15 @@ label {
         font-size: 50px;
     }
 
+    .main2 {
+        display: block;
+    }
+
+
+    footer {
+        display: block;
+    }
+
 
 
 
@@ -324,8 +337,27 @@ label {
         border-radius: 100px;
         font-size: 20px;
         padding: 20px;
-        background-color: rgb(237, 146, 85);;
+        background-color: rgb(237, 146, 85);
+    }
+
+    p {
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+
     }
     
+    .aktivitet {
+        margin: 30px;
+        background-color: rgb(237, 146, 85);
+        font-size: 25px;
+    }
+    
+
+    label {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
 
 }
