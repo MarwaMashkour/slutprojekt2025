@@ -8,6 +8,23 @@
 </head>
 <body id="html2">
 
+    <header>
+        <nav class="navbar">
+           
+            <div class="logo"> <a href="index.html"> Fighting <br> Zone </a> </div>
+            <ul class="navlankar">
+                <li class="hv"> Börja träna </li>
+                <li class="hv"> <a href="#kampsporter"> Kampsporter </a></li>
+                <li class="hv"> Schema </li>
+                <li class="hv"> Nyheter </li>
+                <li><div id="ikonerbox"><img class="ikoner" src="loupe.png" alt="sök knapp">
+                <img class="ikoner" src="instagram-2.png" alt="Instagram">
+                <img class="ikoner" src="tik-tok.png" alt="Tiktok">
+                <img class="ikoner" src="facebook.png" alt="facebook"></div></li>
+            </ul>
+        </nav>
+    </header> 
+
     <div id="intresseanmälan.box">
 <h1 id="intresseanmälan"> Intresseanmälan </h1>
         <p> Välj kampsporten du är intresserad av </p>
@@ -23,31 +40,106 @@
     <div>
        <p> Mina uppgifter</p>
        <label> <input type="radio" name="ålder" checked> Jag är över 18</label>
-       <label> <input type="radio" name="ålder" checked> Jag är över 18</label>
+       <label> <input type="radio" name="ålder" checked> Jag är under 18</label>
     </div>
 
-  
-    <select> <option>År</option></select>
-    <select> <option>Månad</option></select>
-    <select> <option>Dag</option></select>
+  <div id="personnr">
+    <select> 
+        <option>År</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+        <option>2024</option>
+        <option>2025</option>
+    </select>
+    
+    </select>
+    <select> 
+        <option>Månad</option>
+        <option>Januari</option>
+        <option>Februari</option>
+        <option>Mars</option>
+        <option>April</option>
+        <option>Maj</option>
+        <option>Juni</option>
+        <option>Juli</option>
+        <option>Augusti</option>
+        <option>September</option>
+        <option>Oktober</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+
+    <select> 
+        <option>Dag</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+    </select>
+
     <input placeholder="4 sista"> 
+</div>
 
-    <div>
-        <input placeholder="Förnamn" id="förnamn"> 
-        <input placeholder="Efternamn" id="efternamn"> 
-        
-    </div>
-
-    <div>
-        <input placeholder="Adress" id="adress"> 
-        <input placeholder="Personnummer" id="postnummer"> 
-    </div>
-
-    <div>
-        <input placeholder="E-post" id="epost"> 
-        <input placeholder="Telefonnummer" id="telefonnummer"> 
+    <div id="kontaktuppgifter">
+        <input placeholder="Förnamn" class="uppgifter"> 
+        <input placeholder="Efternamn" class="uppgifter"> 
+        <input placeholder="Adress" class="uppgifter"> 
+        <input placeholder="Personnummer" class="uppgifter"> 
+        <input placeholder="E-post" class="uppgifter"> 
+        <input placeholder="Telefonnummer" class="uppgifter"> 
 
     </div>
+
+    <button id="skicka"> Skicka intresseanmälan</button>
 
 </div>
 

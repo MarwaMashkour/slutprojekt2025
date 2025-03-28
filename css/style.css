@@ -93,6 +93,10 @@ button:hover {
     background-color: rgb(237, 146, 85);
 }
 
+.aktivitet:active {
+    background-color: rgb(237, 146, 85);
+}
+
 main {
     height: 100vh;
 }
@@ -166,8 +170,9 @@ footer {
     font-size: 50px;
 }
 
-.footer.text 
-
+#karta {
+    font-size: 40px;
+}
 
 
 
@@ -177,18 +182,16 @@ footer {
 
 #html2 {
     background-color: rgb(179, 179, 179);
-    display: flex;
-    justify-content: center;
+
 }
 
 
 #intresseanmälan {
-    font-size: 50px;
+    font-size: 70px;
+ 
 }
 
-#intresseanmälan.knappar {
-    display: flex;
-}
+
 
 
 .aktivitet {
@@ -200,6 +203,51 @@ border: 5px solid rgb(237, 146, 85);
 
 p {
     font-size: 30px;
+}
+
+.uppgifter { 
+    height: 60px;
+    width: 650px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 15px;
+    border: 2.5px solid rgb(237, 146, 85);
+
+}
+
+#kontaktuppgifter {
+    margin: 50px 10px 50px 10px;
+}
+
+#personnr {
+    margin: 50px 10px 50px 10px;
+}
+
+#personnr select,
+#personnr input {
+    height: 60px;
+    width: 315px;
+    margin: 10px;
+    padding-left: 15px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 2.5px solid rgb(237, 146, 85);
+
+}
+
+label {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#skicka {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 
@@ -235,6 +283,7 @@ p {
     button { 
         border-radius: 100px;
         font-size: 35px;
+
      }
     
      .visaalla {
@@ -247,6 +296,36 @@ p {
         font-size: 50px;
     }
 
+
+
+
+
+    #intresseanmälan {
+        font-size: 50px;
      
+    }
+
+    .uppgifter { 
+        height: 55px;
+        width: 350px;
+    }
+
+    #personnr select,
+    #personnr input {
+        height: 50px;
+        width: 150px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    
+    }
+
+
+    #skicka {
+        border-radius: 100px;
+        font-size: 20px;
+        padding: 20px;
+        background-color: rgb(237, 146, 85);;
+    }
+    
 
 }
