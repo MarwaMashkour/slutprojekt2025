@@ -1,4 +1,4 @@
-#cotainer {
+#container {
     display: grid;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -30,8 +30,6 @@ header {
 }
 
 .navbar li{
-float: left;
-margin: 15px;
 font-size: 30px;
 width: 300px;
 }
@@ -45,7 +43,11 @@ width: 300px;
     background-color: rgb(177, 177, 177);
 }
 
-a {
+.active {
+    display: flex;
+}
+
+.lank {
 text-decoration: none;
 color: #000;
 }
@@ -101,7 +103,13 @@ main {
     height: 100vh;
 }
 
-.main2 {
+#main2 {
+    height: 100vh;
+    display: flex;
+    
+}
+
+#main3 {
     height: 100vh;
     display: flex;
     
@@ -274,6 +282,23 @@ label {
         font-size: 40px;
     }
 
+    .navlankar {
+    list-style-type: none;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    overflow: hidden;
+    top: 0%;
+    right: 0%;
+
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    background-color: aliceblue;
+    height: 50vh;
+
+}
+
     h1 {
         font-size: 80px;
         text-align: center;
@@ -307,6 +332,20 @@ label {
 
     footer {
         display: block;
+    }
+
+    .hamburgare {
+       /* border: 1px solid #000; */
+       height: 30px;
+       width: 45px;
+       position: absolute;
+       top: 20px;
+       right: 20px;
+    }
+
+    .hamburgare div {
+        border: 1.5px solid #000;
+        margin: 6px;
     }
 
 
@@ -358,6 +397,7 @@ label {
         font-size: 20px;
         margin-left: 10px;
     }
+
 
 
 }
