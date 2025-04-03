@@ -103,17 +103,13 @@ main {
     height: 100vh;
 }
 
-#main2 {
-    height: 100vh;
-    display: flex;
-    
-}
-
+#main2,
 #main3 {
     height: 100vh;
     display: flex;
     
 }
+
 
 .sida2 {
     width: 50%;
@@ -131,13 +127,6 @@ main {
 }
 
 
-.Bild {
-    background-image: url("../bodybuilder-5352031_1280\ 2.jpg");
-    max-width: 90%;
-    height: 80%;
-    border-radius: 40px;
-}
-
 img {
     max-width: 90%;
     height: auto;
@@ -145,24 +134,56 @@ img {
 
 }
 
-.bildrubrik {
+#bildrubrik1 {
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    position: relative; 
+    bottom: 770px;
+    padding: 10px;
+}
+
+    
+#bildrubrik2 {
    font-size: 50px;
    background-color: rgb(255, 255, 255);
    border-radius: 40px;
-   margin-left:50px
+   position: relative; 
+   bottom: 800px;
+   padding: 10px;
+   
+
 }
 
 h3 { 
     background-color: rgb(255, 255, 255);
     border-radius: 40px;
     font-size: 30px;
+    position: relative;
+    bottom: 820px;
+    padding: 10px;
+
 }
 
-.bildtext {
+#bildtext1 {
     background-color: rgb(255, 255, 255);
     font-size: 25px;
     border-radius: 40px;
+    position: relative; 
+    bottom: 370px;
+   padding: 20px;
 }
+
+#bildtext2 {
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 40px;
+    position: relative; 
+   bottom: 310px;
+   padding: 20px;
+}
+
+
 
 footer {
     height: 60vh;
@@ -177,8 +198,8 @@ footer {
     font-size: 50px;
 }
 
-#karta {
-    font-size: 40px;
+a {
+    font-size: 30px;
 }
 
 
@@ -240,7 +261,7 @@ p {
 #personnr select,
 #personnr input {
     height: 60px;
-    width: 300px;
+    width: 290px;
     margin: 10px;
     padding-left: 15px;
     border-radius: 20px;
@@ -349,7 +370,44 @@ label {
     }
 
 
+    #main2,
+    #main3 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 
+    #bildtext1,
+    #bildtext2 {
+        display: none;
+    }
+
+    #bildrubrik1,
+    #bildrubrik2 {
+        display: none;
+    }
+    
+    h3 {
+        display: none;
+    }
+
+
+    .sida2 {
+        width: 90%;
+    }
+
+    button {
+        width: 80%;
+        background-color:rgb(237, 146, 85); ;
+    }
+
+    img {
+        margin-top: 30px;
+    }
+
+    #main2{
+        margin-bottom: 150px;
+    }
 
 
     #intresseanmälan {
@@ -396,6 +454,26 @@ label {
     label {
         font-size: 20px;
         margin-left: 10px;
+    }
+
+    .footerrubrik {
+        font-size: 30px;
+    }
+
+    footer .ikoner {
+        display: none;
+    }
+
+    a {
+        font-size: 30px;
+    }
+   
+    .footertext {
+        line-height: 0.2;
+    }
+
+    footer p {
+        margin-bottom: 70px;
     }
 
 
